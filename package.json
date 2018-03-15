@@ -1,9 +1,9 @@
 {
   "name": "aCambio",
   "version": "1.0.0",
-  "description": "landing - sitio informativo",
+  "description": "Sergio Puchi, Contabilidad",
   "main": "index.js",
-  "repository": "git@github.com:carlosdgrafico/aCambio.git",
+  "repository": "git@github.com:carlosdgrafico/sp-consultores.git",
   "author": "carlosdgrafico <carlos.disenadorgrafico@gmail.com>",
   "license": "MIT",
   "dependencies": {
