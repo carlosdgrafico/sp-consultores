@@ -1,7 +1,7 @@
 .logotipo{
    display: inline-block;
    vertical-align: middle;
-   width: 200px;
+   width: 250px;
    position: relative;
    z-index: 20;
 
@@ -13,7 +13,7 @@
 
 
 .boton{
-   background-color: $secondary-color;
+   background-color: #874142;
    border-radius: 25px;
    color: #fff;
    @include font-size(16);
@@ -49,7 +49,7 @@ button.boton{
    margin-bottom: 4em;
 
    &__name{
-      color: $text-color;
+      color: #2f3133;
       @include font-size(36);
       @include line-height(44);
       font-weight: 300;
@@ -65,7 +65,7 @@ button.boton{
       }
 
       &:before{
-         background-color: $secondary-color;
+         background-color: #874142;
          content: '';
          display: inline-block;
          height: 2px;
@@ -141,12 +141,12 @@ button.boton{
 		display: inline-block !important;
 		position: absolute;
 		bottom: -40px;
-		right: 0;
+		left: .5em;
 		z-index: 3;
 
 		.owl-dot {
-			background-color: #283850;
-			border: 1px solid #283850;
+			background-color: rgba(0,0,0,.1);
+			border: 1px solid rgba(0,0,0,.1);
 			border-radius: 50%;
 			height: 9px;
 			display: inline-block;
@@ -155,8 +155,8 @@ button.boton{
 			width: 9px;
 
 			&.active {
-				background-color: #708191;
-				border: 1px solid #708191;
+				background-color: #874142;
+				border: 1px solid #874142;
 			}
 		}
 	}

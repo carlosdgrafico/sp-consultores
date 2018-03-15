@@ -1,5 +1,5 @@
 .como-funciona{
-   background-color: $primary-color;
+   background-color: #fff;
    padding: 7em;
 
    @media(max-width: 480px){
@@ -7,9 +7,9 @@
    }
 
    .titulo__name{
-      color: #fff;
+      color: #2f3133;
       &:before{
-         background-color: #fff;
+         background-color: #874142;
       }
    }
 }
@@ -22,7 +22,7 @@
    }
 
    &__icon{
-      color: $secondary-color;
+      color: #874142;
       display: inline-block;
       @include font-size(47);
 
@@ -39,12 +39,12 @@
    }
 
    &__titulo{
-      color: #fff;
+      color: #2f3133;
       @include font-size(18);
       @include line-height(22);
       margin: .5em 0 1.5em 0;
       &:before{
-         background-color: $secondary-color;
+         background-color: #874142;
          content: '';
          display: inline-block;
          height: 2px;
@@ -61,10 +61,12 @@
       }
    }
 
-   &__detalle{
-      color: rgba(255,255,255,.5);
+   &__detalle, &__item{
+      color: $text-color;
       @include font-size(16);
       @include line-height(19);
+      list-style-type: disc !important;
+      margin: .3em 0 0 1em;
 
       @media(max-width: 768px){
          @include font-size(14);
@@ -74,6 +76,6 @@
 
    &__boton{
       margin-top: 3em;
-      display: none;
+      // display: none;
    }
 }

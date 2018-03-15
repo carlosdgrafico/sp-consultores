@@ -1,0 +1,1208 @@
+/*  BASE  */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,600,600i,700,700i");
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?kpbxbb");
+  src: url("../fonts/icomoon.eot?kpbxbb#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?kpbxbb") format("truetype"), url("../fonts/icomoon.woff?kpbxbb") format("woff"), url("../fonts/icomoon.svg?kpbxbb#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 12, app/scss/base/icon.scss */
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 27, app/scss/base/icon.scss */
+.icon-add:before {
+  content: "\e90e"; }
+
+/* line 30, app/scss/base/icon.scss */
+.icon-corazon-color:before {
+  content: "\e90f"; }
+
+/* line 33, app/scss/base/icon.scss */
+.icon-emoticon-color:before {
+  content: "\e910"; }
+
+/* line 36, app/scss/base/icon.scss */
+.icon-corazon:before {
+  content: "\e900"; }
+
+/* line 39, app/scss/base/icon.scss */
+.icon-instagram:before {
+  content: "\e901"; }
+
+/* line 42, app/scss/base/icon.scss */
+.icon-compras:before {
+  content: "\e902"; }
+
+/* line 45, app/scss/base/icon.scss */
+.icon-down:before {
+  content: "\e903"; }
+
+/* line 48, app/scss/base/icon.scss */
+.icon-emoticon:before {
+  content: "\e904"; }
+
+/* line 51, app/scss/base/icon.scss */
+.icon-ventas:before {
+  content: "\e905"; }
+
+/* line 54, app/scss/base/icon.scss */
+.icon-add_user:before {
+  content: "\e906"; }
+
+/* line 57, app/scss/base/icon.scss */
+.icon-Facebook:before {
+  content: "\e907"; }
+
+/* line 60, app/scss/base/icon.scss */
+.icon-line_chart:before {
+  content: "\e908"; }
+
+/* line 63, app/scss/base/icon.scss */
+.icon-linkedin:before {
+  content: "\e909"; }
+
+/* line 66, app/scss/base/icon.scss */
+.icon-mapa:before {
+  content: "\e90a"; }
+
+/* line 69, app/scss/base/icon.scss */
+.icon-pie_chart:before {
+  content: "\e90b"; }
+
+/* line 72, app/scss/base/icon.scss */
+.icon-tea:before {
+  content: "\e90c"; }
+
+/* line 75, app/scss/base/icon.scss */
+.icon-Twitter:before {
+  content: "\e90d"; }
+
+/* line 1, app/scss/base/inicializacion.scss */
+html {
+  font-size: 16px; }
+
+/* line 5, app/scss/base/inicializacion.scss */
+body {
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 20px;
+  line-height: 1.25rem;
+  font-weight: 300;
+  margin: 0;
+  overflow-x: hidden !important;
+  padding: 0;
+  position: relative; }
+
+/* line 17, app/scss/base/inicializacion.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary,
+p {
+  margin: 0;
+  padding: 0; }
+
+/* line 35, app/scss/base/inicializacion.scss */
+a {
+  text-decoration: none;
+  display: inline-block; }
+
+/* line 40, app/scss/base/inicializacion.scss */
+a:active,
+a:hover,
+a:focus {
+  outline: none; }
+
+/* line 47, app/scss/base/inicializacion.scss */
+ol,
+ul {
+  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+/* line 55, app/scss/base/inicializacion.scss */
+img {
+  border: 0;
+  display: block;
+  margin: 0 auto;
+  width: 100%; }
+
+/* COMPONENETES */
+/* line 1, app/scss/componentes/generales.scss */
+.logotipo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 250px;
+  position: relative;
+  z-index: 20; }
+  @media (max-width: 480px) {
+    /* line 1, app/scss/componentes/generales.scss */
+    .logotipo {
+      top: 5px;
+      width: 120px; } }
+
+/* line 15, app/scss/componentes/generales.scss */
+.boton {
+  background-color: #874142;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 20px;
+  line-height: 1.25rem;
+  padding: .9em 2.5em; }
+  @media (max-width: 768px) {
+    /* line 15, app/scss/componentes/generales.scss */
+    .boton {
+      font-size: 14px;
+      font-size: 0.875rem; } }
+  @media (max-width: 480px) {
+    /* line 15, app/scss/componentes/generales.scss */
+    .boton {
+      font-size: 12px;
+      font-size: 0.75rem; } }
+
+/* line 36, app/scss/componentes/generales.scss */
+button.boton {
+  border: none !important; }
+
+/* line 40, app/scss/componentes/generales.scss */
+.boton--defecto {
+  background-color: #C2C2C2; }
+  /* line 42, app/scss/componentes/generales.scss */
+  .boton--defecto:hover, .boton--defecto:focus {
+    background-color: #b5b5b5 !important; }
+
+/* line 47, app/scss/componentes/generales.scss */
+.titulo {
+  text-align: left;
+  margin-bottom: 4em; }
+  /* line 51, app/scss/componentes/generales.scss */
+  .titulo__name {
+    color: #2f3133;
+    font-size: 36px;
+    font-size: 2.25rem;
+    line-height: 44px;
+    line-height: 2.75rem;
+    font-weight: 300;
+    margin: 0 0 1em 0; }
+    @media (max-width: 768px) {
+      /* line 51, app/scss/componentes/generales.scss */
+      .titulo__name {
+        font-size: 28px;
+        font-size: 1.75rem;
+        line-height: 36px;
+        line-height: 2.25rem; } }
+    @media (max-width: 480px) {
+      /* line 51, app/scss/componentes/generales.scss */
+      .titulo__name {
+        font-size: 20px;
+        font-size: 1.25rem; } }
+    /* line 67, app/scss/componentes/generales.scss */
+    .titulo__name:before {
+      background-color: #874142;
+      content: '';
+      display: inline-block;
+      height: 2px;
+      margin: 0 .5em .2em 0;
+      width: 40px; }
+  /* line 77, app/scss/componentes/generales.scss */
+  .titulo__icon {
+    color: #66BF92;
+    font-size: 28px;
+    font-size: 1.75rem;
+    margin-left: 1em; }
+  /* line 83, app/scss/componentes/generales.scss */
+  .titulo__detalle {
+    color: #99A7B6;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 19px;
+    line-height: 1.1875rem; }
+    @media (max-width: 768px) {
+      /* line 83, app/scss/componentes/generales.scss */
+      .titulo__detalle {
+        font-size: 14px;
+        font-size: 0.875rem;
+        line-height: 16px;
+        line-height: 1rem; } }
+
+/* line 96, app/scss/componentes/generales.scss */
+.titulo--center {
+  text-align: center; }
+  /* line 99, app/scss/componentes/generales.scss */
+  .titulo--center .titulo__name {
+    margin: 0 0 1em 0;
+    position: relative; }
+    /* line 103, app/scss/componentes/generales.scss */
+    .titulo--center .titulo__name:before {
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -.5em;
+      width: 100px; }
+  /* line 113, app/scss/componentes/generales.scss */
+  .titulo--center .titulo__detalle {
+    margin-bottom: 2em;
+    max-width: 70%;
+    margin: 0 auto; }
+    @media (max-width: 480px) {
+      /* line 113, app/scss/componentes/generales.scss */
+      .titulo--center .titulo__detalle {
+        max-width: 90%; } }
+
+/* setting del carrousel */
+/* line 127, app/scss/componentes/generales.scss */
+.owl-frases, .owl-testimonios {
+  display: inline-block !important;
+  position: relative;
+  z-index: 1; }
+  /* line 132, app/scss/componentes/generales.scss */
+  .owl-frases .item, .owl-testimonios .item {
+    padding: .5em .5em 1em .5em; }
+  /* line 136, app/scss/componentes/generales.scss */
+  .owl-frases .owl-nav, .owl-testimonios .owl-nav {
+    display: none; }
+  /* line 140, app/scss/componentes/generales.scss */
+  .owl-frases .owl-dots, .owl-testimonios .owl-dots {
+    display: inline-block !important;
+    position: absolute;
+    bottom: -40px;
+    left: .5em;
+    z-index: 3; }
+    /* line 147, app/scss/componentes/generales.scss */
+    .owl-frases .owl-dots .owl-dot, .owl-testimonios .owl-dots .owl-dot {
+      background-color: rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+      height: 9px;
+      display: inline-block;
+      margin: 5px;
+      pointer-events: all;
+      width: 9px; }
+      /* line 157, app/scss/componentes/generales.scss */
+      .owl-frases .owl-dots .owl-dot.active, .owl-testimonios .owl-dots .owl-dot.active {
+        background-color: #874142;
+        border: 1px solid #874142; }
+
+/* line 169, app/scss/componentes/generales.scss */
+.owl-testimonios .owl-dots {
+  right: 0;
+  left: 0;
+  text-align: center; }
+  /* line 174, app/scss/componentes/generales.scss */
+  .owl-testimonios .owl-dots .owl-dot {
+    background-color: #D8D8D8;
+    border: 1px solid #D8D8D8; }
+    /* line 178, app/scss/componentes/generales.scss */
+    .owl-testimonios .owl-dots .owl-dot.active {
+      background-color: #99A7B6;
+      border: 1px solid #99A7B6; }
+
+@media (max-width: 480px) {
+  /* line 189, app/scss/componentes/generales.scss */
+  .owl-frases .owl-dots {
+    bottom: -20px; } }
+
+/* line 1, app/scss/componentes/header.scss */
+.header {
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: 1px solid #f2f2f2;
+  padding: 1.7em .5em;
+  position: fixed;
+  width: 100%;
+  z-index: 100; }
+  @media (max-width: 768px) {
+    /* line 1, app/scss/componentes/header.scss */
+    .header {
+      position: fixed; } }
+  /* line 15, app/scss/componentes/header.scss */
+  .header__menu {
+    display: inline-block;
+    margin-right: 2em;
+    text-align: right;
+    vertical-align: middle; }
+  /* line 24, app/scss/componentes/header.scss */
+  .header__item {
+    display: inline-block;
+    margin: 0 1em; }
+  /* line 29, app/scss/componentes/header.scss */
+  .header__link {
+    color: #708191;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 19px;
+    line-height: 1.1875rem;
+    font-weight: 300;
+    padding: 0 .3em .5em 0;
+    position: relative;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out; }
+    /* line 38, app/scss/componentes/header.scss */
+    .header__link:before {
+      background-color: #874142;
+      content: '';
+      display: inline-block;
+      height: 2px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      -webkit-transition: all .3s ease-out;
+      transition: all .3s ease-out;
+      width: 0; }
+    /* line 51, app/scss/componentes/header.scss */
+    .header__link:hover {
+      color: #2f3133; }
+      /* line 53, app/scss/componentes/header.scss */
+      .header__link:hover:before {
+        width: 100%; }
+  /* line 59, app/scss/componentes/header.scss */
+  .header__link--active {
+    color: #2f3133; }
+    /* line 61, app/scss/componentes/header.scss */
+    .header__link--active:before {
+      width: 100%; }
+  /* line 66, app/scss/componentes/header.scss */
+  .header .onActive {
+    opacity: 1;
+    pointer-events: all; }
+  @media (max-width: 1100px) {
+    /* line 72, app/scss/componentes/header.scss */
+    .header__menu--mobile {
+      background-color: #fff;
+      display: inline-block;
+      height: 100vh;
+      opacity: 0;
+      overflow: scroll;
+      padding: 6em 0 0 0;
+      pointer-events: none;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      text-align: center;
+      -webkit-transition: all .1s ease-in;
+      transition: all .1s ease-in;
+      width: 100%;
+      z-index: 5; }
+      /* line 91, app/scss/componentes/header.scss */
+      .header__menu--mobile .header__item {
+        display: block;
+        margin: 3em 0; }
+      /* line 96, app/scss/componentes/header.scss */
+      .header__menu--mobile .header__link {
+        font-size: 48px;
+        font-size: 3rem;
+        line-height: 48px;
+        line-height: 3rem; } }
+  @media (max-width: 768px) {
+    /* line 103, app/scss/componentes/header.scss */
+    .header__menu--mobile .header__link {
+      font-size: 30px;
+      font-size: 1.875rem; } }
+  @media (max-width: 768px) {
+    /* line 109, app/scss/componentes/header.scss */
+    .header__menu--mobile .header__link {
+      font-size: 20px;
+      font-size: 1.25rem;
+      line-height: 24px;
+      line-height: 1.5rem; } }
+  /* line 120, app/scss/componentes/header.scss */
+  .header__usuario {
+    position: relative;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    vertical-align: middle; }
+    @media (max-width: 1100px) {
+      /* line 120, app/scss/componentes/header.scss */
+      .header__usuario {
+        right: 80px;
+        z-index: 20; } }
+    @media (max-width: 768px) {
+      /* line 120, app/scss/componentes/header.scss */
+      .header__usuario {
+        right: 70px; } }
+    @media (max-width: 480px) {
+      /* line 120, app/scss/componentes/header.scss */
+      .header__usuario {
+        right: 45px; } }
+  /* line 140, app/scss/componentes/header.scss */
+  .header__usuario-border {
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    height: 60px;
+    width: 60px; }
+    @media (max-width: 480px) {
+      /* line 140, app/scss/componentes/header.scss */
+      .header__usuario-border {
+        height: 45px;
+        width: 45px; } }
+  /* line 153, app/scss/componentes/header.scss */
+  .header__usuario-foto {
+    border-radius: 50%;
+    height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5px;
+    width: 50px; }
+    @media (max-width: 480px) {
+      /* line 153, app/scss/componentes/header.scss */
+      .header__usuario-foto {
+        top: 3px;
+        height: 39px;
+        width: 39px; } }
+
+/* line 176, app/scss/componentes/header.scss */
+.burger {
+  position: absolute;
+  top: 30%;
+  right: 3%;
+  z-index: 20;
+  display: none; }
+  @media (max-width: 1100px) {
+    /* line 176, app/scss/componentes/header.scss */
+    .burger {
+      display: inherit; } }
+  /* line 187, app/scss/componentes/header.scss */
+  .burger__container {
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    width: 40px; }
+  /* line 196, app/scss/componentes/header.scss */
+  .burger__stripe {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    background: #874142;
+    height: 2px;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 85%; }
+    /* line 204, app/scss/componentes/header.scss */
+    .burger__stripe:nth-child(2) {
+      position: relative;
+      left: -4px;
+      width: 60%; }
+
+/* line 214, app/scss/componentes/header.scss */
+.on .burger__stripe--top {
+  background-color: #874142;
+  -webkit-transform: rotate(45deg) translate(7px, 7px);
+          transform: rotate(45deg) translate(7px, 7px); }
+
+/* line 219, app/scss/componentes/header.scss */
+.on .burger__stripe--middle {
+  opacity: 0; }
+
+/* line 223, app/scss/componentes/header.scss */
+.on .burger__stripe--bottom {
+  background-color: #874142;
+  -webkit-transform: rotate(-45deg) translate(7px, -7px);
+          transform: rotate(-45deg) translate(7px, -7px); }
+
+/* line 1, app/scss/componentes/banner.scss */
+.banner {
+  position: relative; }
+  /* line 4, app/scss/componentes/banner.scss */
+  .banner .u-container {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; }
+  @media (max-width: 480px) {
+    /* line 12, app/scss/componentes/banner.scss */
+    .banner__desktop {
+      display: none; } }
+  /* line 18, app/scss/componentes/banner.scss */
+  .banner__mobile {
+    display: none; }
+    @media (max-width: 480px) {
+      /* line 18, app/scss/componentes/banner.scss */
+      .banner__mobile {
+        display: inherit; } }
+  /* line 25, app/scss/componentes/banner.scss */
+  .banner__scroll {
+    color: #99A7B6;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 17px;
+    line-height: 1.0625rem;
+    font-weight: 300;
+    opacity: .5;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    text-align: center;
+    -vendor-animation-iteration-count: infinite; }
+    @media (max-width: 768px) {
+      /* line 25, app/scss/componentes/banner.scss */
+      .banner__scroll {
+        left: 30px; } }
+    @media (max-width: 480px) {
+      /* line 25, app/scss/componentes/banner.scss */
+      .banner__scroll {
+        display: none !important; } }
+    /* line 46, app/scss/componentes/banner.scss */
+    .banner__scroll:before, .banner__scroll:after {
+      background-color: #99A7B6;
+      content: '';
+      display: inline-block;
+      height: 50px;
+      margin: 0 auto;
+      position: absolute;
+      top: -60px;
+      left: 0;
+      right: 0;
+      width: 1px; }
+    /* line 58, app/scss/componentes/banner.scss */
+    .banner__scroll:after {
+      top: 30px; }
+  /* line 63, app/scss/componentes/banner.scss */
+  .banner__scroll-flecha {
+    color: #99A7B6;
+    font-size: 5px;
+    font-size: 0.3125rem;
+    position: absolute;
+    bottom: -65px;
+    left: 0;
+    right: 0; }
+  /* line 73, app/scss/componentes/banner.scss */
+  .banner__info {
+    color: #874142;
+    max-width: 600px;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    text-align: left; }
+    @media (max-width: 768px) {
+      /* line 73, app/scss/componentes/banner.scss */
+      .banner__info {
+        top: 150px;
+        width: 450px; } }
+    @media (max-width: 480px) {
+      /* line 73, app/scss/componentes/banner.scss */
+      .banner__info {
+        width: 220px;
+        right: 10px; } }
+  /* line 92, app/scss/componentes/banner.scss */
+  .banner__saludo {
+    color: #708191;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 22px;
+    line-height: 1.375rem;
+    font-weight: 300;
+    margin: 0 0 .3em .5em; }
+    @media (max-width: 768px) {
+      /* line 92, app/scss/componentes/banner.scss */
+      .banner__saludo {
+        font-size: 14px;
+        font-size: 0.875rem;
+        margin-bottom: 0; } }
+  /* line 105, app/scss/componentes/banner.scss */
+  .banner__saludo-destacado {
+    color: #66BF92;
+    font-weight: 400;
+    margin-left: .3em; }
+  /* line 111, app/scss/componentes/banner.scss */
+  .banner .banner__slider {
+    margin: 0; }
+  /* line 116, app/scss/componentes/banner.scss */
+  .banner__slider-frase {
+    font-size: 48px;
+    font-size: 3rem;
+    line-height: 47px;
+    line-height: 2.9375rem;
+    font-weight: 600;
+    margin: 0; }
+    /* line 121, app/scss/componentes/banner.scss */
+    .banner__slider-frase span {
+      color: #2f3133; }
+    @media (max-width: 768px) {
+      /* line 116, app/scss/componentes/banner.scss */
+      .banner__slider-frase {
+        font-size: 30px;
+        font-size: 1.875rem;
+        line-height: 36px;
+        line-height: 2.25rem; } }
+    @media (max-width: 480px) {
+      /* line 116, app/scss/componentes/banner.scss */
+      .banner__slider-frase {
+        font-size: 22px;
+        font-size: 1.375rem;
+        line-height: 24px;
+        line-height: 1.5rem; } }
+  /* line 136, app/scss/componentes/banner.scss */
+  .banner__boton {
+    margin-top: 4em; }
+
+/* line 1, app/scss/componentes/que-hacemos.scss */
+.que-hacemos {
+  padding: 7em 0; }
+  @media (max-width: 480px) {
+    /* line 1, app/scss/componentes/que-hacemos.scss */
+    .que-hacemos {
+      padding: 3em 0; } }
+
+/* line 9, app/scss/componentes/que-hacemos.scss */
+.testimonios {
+  margin: 0; }
+  /* line 12, app/scss/componentes/que-hacemos.scss */
+  .testimonios__avatar {
+    border-radius: 50%;
+    display: inline-block;
+    height: 50px;
+    margin-right: 1em;
+    overflow: hidden;
+    vertical-align: top;
+    width: 50px; }
+  /* line 22, app/scss/componentes/que-hacemos.scss */
+  .testimonios__text {
+    color: #99A7B6;
+    display: inline-block;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 19px;
+    line-height: 1.1875rem;
+    font-style: italic;
+    vertical-align: top;
+    width: 70%; }
+    @media (max-width: 768px) {
+      /* line 22, app/scss/componentes/que-hacemos.scss */
+      .testimonios__text {
+        font-size: 14px;
+        font-size: 0.875rem;
+        line-height: 16px;
+        line-height: 1rem; } }
+  /* line 37, app/scss/componentes/que-hacemos.scss */
+  .testimonios__firma {
+    color: #708191;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: .5em; }
+
+/* line 48, app/scss/componentes/que-hacemos.scss */
+.video video {
+  width: 100%;
+  max-width: 840px; }
+
+@media (max-width: 480px) {
+  /* line 47, app/scss/componentes/que-hacemos.scss */
+  .video {
+    margin-top: 4em; } }
+
+/* line 1, app/scss/componentes/como-funciona.scss */
+.como-funciona {
+  background-color: #fff;
+  padding: 7em; }
+  @media (max-width: 480px) {
+    /* line 1, app/scss/componentes/como-funciona.scss */
+    .como-funciona {
+      padding: 3em 0; } }
+  /* line 9, app/scss/componentes/como-funciona.scss */
+  .como-funciona .titulo__name {
+    color: #2f3133; }
+    /* line 11, app/scss/componentes/como-funciona.scss */
+    .como-funciona .titulo__name:before {
+      background-color: #874142; }
+
+/* line 17, app/scss/componentes/como-funciona.scss */
+.paso {
+  margin: 4em 0; }
+  @media (max-width: 480px) {
+    /* line 17, app/scss/componentes/como-funciona.scss */
+    .paso {
+      margin: 2em 0; } }
+  /* line 24, app/scss/componentes/como-funciona.scss */
+  .paso__icon {
+    color: #874142;
+    display: inline-block;
+    font-size: 47px;
+    font-size: 2.9375rem; }
+    @media (max-width: 768px) {
+      /* line 24, app/scss/componentes/como-funciona.scss */
+      .paso__icon {
+        font-size: 22px;
+        font-size: 1.375rem; } }
+  /* line 34, app/scss/componentes/como-funciona.scss */
+  .paso__info {
+    display: inline-block;
+    margin: 0 0 0 1em;
+    vertical-align: top;
+    width: 80%; }
+  /* line 41, app/scss/componentes/como-funciona.scss */
+  .paso__titulo, .beneficio__titulo {
+    color: #2f3133;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 22px;
+    line-height: 1.375rem;
+    margin: .5em 0 1.5em 0; }
+    /* line 46, app/scss/componentes/como-funciona.scss */
+    .paso__titulo:before, .beneficio__titulo:before {
+      background-color: #874142;
+      content: '';
+      display: inline-block;
+      height: 2px;
+      margin: 0 .8em .2em 0;
+      width: 40px; }
+    @media (max-width: 768px) {
+      /* line 41, app/scss/componentes/como-funciona.scss */
+      .paso__titulo, .beneficio__titulo {
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 19px;
+        line-height: 1.1875rem; }
+        /* line 58, app/scss/componentes/como-funciona.scss */
+        .paso__titulo:before, .beneficio__titulo:before {
+          width: 20px; } }
+  /* line 64, app/scss/componentes/como-funciona.scss */
+  .paso__detalle, .paso__item {
+    color: #708191;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 19px;
+    line-height: 1.1875rem;
+    list-style-type: disc !important;
+    margin: .3em 0 0 1em; }
+    @media (max-width: 768px) {
+      /* line 64, app/scss/componentes/como-funciona.scss */
+      .paso__detalle, .paso__item {
+        font-size: 14px;
+        font-size: 0.875rem;
+        line-height: 17px;
+        line-height: 1.0625rem; } }
+  /* line 77, app/scss/componentes/como-funciona.scss */
+  .paso__boton {
+    margin-top: 3em; }
+
+/* line 1, app/scss/componentes/quienes-somos.scss */
+.quienes-somos {
+  padding: 7em 0;
+  position: relative;
+  background-image: url(../img/bg-test.jpg);
+  overflow: hidden; }
+  @media (max-width: 480px) {
+    /* line 1, app/scss/componentes/quienes-somos.scss */
+    .quienes-somos {
+      padding-bottom: 18em;
+      padding-top: 2em;
+      margin: 2em 0; }
+      /* line 11, app/scss/componentes/quienes-somos.scss */
+      .quienes-somos .titulo:first-child {
+        margin-top: 0; } }
+
+/* line 17, app/scss/componentes/quienes-somos.scss */
+.equipo {
+  height: 780px;
+  overflow: hidden;
+  position: absolute;
+  right: 70px;
+  top: 55px;
+  width: 500px;
+  z-index: 2; }
+  @media (max-width: 768px) {
+    /* line 17, app/scss/componentes/quienes-somos.scss */
+    .equipo {
+      height: 500px;
+      right: -130px;
+      width: 500px; } }
+  @media (max-width: 480px) {
+    /* line 17, app/scss/componentes/quienes-somos.scss */
+    .equipo {
+      height: 350px;
+      right: 0;
+      left: 0;
+      top: 350px;
+      width: 350px; } }
+
+/* line 1, app/scss/componentes/beneficios.scss */
+.beneficios {
+  padding: 7em 0; }
+  /* line 4, app/scss/componentes/beneficios.scss */
+  .beneficios .boton {
+    margin-top: 8em; }
+  @media (max-width: 768px) {
+    /* line 1, app/scss/componentes/beneficios.scss */
+    .beneficios {
+      padding-top: 0; }
+      /* line 11, app/scss/componentes/beneficios.scss */
+      .beneficios .boton {
+        margin-top: 6em; } }
+
+/* Edita el background de los manejadores de la galeria */
+/* line 20, app/scss/componentes/beneficios.scss */
+.fancybox-container button:focus {
+  background-color: transparent !important;
+  outline: none; }
+
+/* line 28, app/scss/componentes/beneficios.scss */
+.beneficio {
+  margin-top: 1em; }
+  @media (max-width: 480px) {
+    /* line 28, app/scss/componentes/beneficios.scss */
+    .beneficio {
+      margin-bottom: 2em; } }
+  /* line 35, app/scss/componentes/beneficios.scss */
+  .beneficio__link {
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out; }
+    /* line 69, app/scss/componentes/beneficios.scss */
+    .beneficio__link:hover {
+      -webkit-box-shadow: 1px 2px 15px 2px rgba(0, 0, 0, 0.2);
+              box-shadow: 1px 2px 15px 2px rgba(0, 0, 0, 0.2); }
+  /* line 87, app/scss/componentes/beneficios.scss */
+  .beneficio__titulo {
+    color: #12253F;
+    margin: 1.5em 0 1em 0; }
+  /* line 92, app/scss/componentes/beneficios.scss */
+  .beneficio__detalle {
+    color: #99A7B6;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 19px;
+    line-height: 1.1875rem; }
+    @media (max-width: 768px) {
+      /* line 92, app/scss/componentes/beneficios.scss */
+      .beneficio__detalle {
+        font-size: 14px;
+        font-size: 0.875rem;
+        line-height: 17px;
+        line-height: 1.0625rem; } }
+
+/* line 1, app/scss/componentes/social.scss */
+.social {
+  background-color: #EFEFEF;
+  padding: 2em 0;
+  text-align: center; }
+  /* line 6, app/scss/componentes/social.scss */
+  .social__text {
+    color: #99A7B6;
+    display: inline-block;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 22px;
+    line-height: 1.375rem;
+    margin: 0 10em;
+    vertical-align: middle; }
+    @media (max-width: 768px) {
+      /* line 6, app/scss/componentes/social.scss */
+      .social__text {
+        font-size: 14px;
+        font-size: 0.875rem;
+        line-height: 17px;
+        line-height: 1.0625rem;
+        margin: 0 4em; } }
+    @media (max-width: 480px) {
+      /* line 6, app/scss/componentes/social.scss */
+      .social__text {
+        display: none; } }
+  /* line 25, app/scss/componentes/social.scss */
+  .social__accesos {
+    display: inline-block;
+    margin-right: 3em;
+    text-align: right;
+    vertical-align: middle; }
+    @media (max-width: 480px) {
+      /* line 25, app/scss/componentes/social.scss */
+      .social__accesos {
+        display: block;
+        margin: 1em auto 0 auto;
+        text-align: center; } }
+  /* line 38, app/scss/componentes/social.scss */
+  .social__icon {
+    color: #12253F;
+    font-size: 20px;
+    font-size: 1.25rem;
+    margin-left: 1em;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out; }
+    /* line 44, app/scss/componentes/social.scss */
+    .social__icon:first-child {
+      margin-left: 0; }
+    /* line 47, app/scss/componentes/social.scss */
+    .social__icon:hover {
+      color: #66BF92; }
+
+/* line 1, app/scss/componentes/quienes-pueden.scss */
+.quienes-pueden {
+  padding: 7em 0; }
+  @media (max-width: 480px) {
+    /* line 1, app/scss/componentes/quienes-pueden.scss */
+    .quienes-pueden {
+      padding: 3em 0; } }
+
+/* line 9, app/scss/componentes/quienes-pueden.scss */
+.destacados {
+  text-align: center; }
+  /* line 12, app/scss/componentes/quienes-pueden.scss */
+  .destacados__item {
+    display: inline-block;
+    margin: 0 5%;
+    text-align: center;
+    vertical-align: top;
+    width: 20%; }
+    @media (max-width: 480px) {
+      /* line 12, app/scss/componentes/quienes-pueden.scss */
+      .destacados__item {
+        margin: 0 auto 3em auto;
+        width: 80%; } }
+  /* line 25, app/scss/componentes/quienes-pueden.scss */
+  .destacados__icon {
+    color: #66BF92;
+    display: inline-block;
+    font-size: 48px;
+    font-size: 3rem;
+    height: 70px;
+    text-align: center;
+    width: 80px; }
+  /* line 34, app/scss/componentes/quienes-pueden.scss */
+  .destacados__text {
+    color: #12253F;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+    font-weight: 400; }
+    @media (max-width: 480px) {
+      /* line 34, app/scss/componentes/quienes-pueden.scss */
+      .destacados__text {
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 19px;
+        line-height: 1.1875rem; } }
+
+/* line 1, app/scss/componentes/contacto.scss */
+.contacto {
+  padding: 7em 0; }
+  @media (max-width: 468px) {
+    /* line 1, app/scss/componentes/contacto.scss */
+    .contacto {
+      padding: 3em 0; } }
+
+/* line 9, app/scss/componentes/contacto.scss */
+.formulario {
+  margin-top: 3em; }
+  /* line 12, app/scss/componentes/contacto.scss */
+  .formulario .input-field {
+    margin-bottom: 2em; }
+  /* line 16, app/scss/componentes/contacto.scss */
+  .formulario__boton {
+    margin: 2em 2em 0 0;
+    padding: .9em 3.5em; }
+    @media (max-width: 768px) {
+      /* line 16, app/scss/componentes/contacto.scss */
+      .formulario__boton {
+        margin: 0; } }
+    @media (max-width: 768px) {
+      /* line 16, app/scss/componentes/contacto.scss */
+      .formulario__boton {
+        margin: .5em 0 1em 0;
+        width: 80%; } }
+
+/* line 31, app/scss/componentes/contacto.scss */
+.mapa {
+  margin-top: 3em;
+  max-height: 400px;
+  overflow: hidden; }
+
+/* line 1, app/scss/componentes/footer.scss */
+.footer {
+  background-color: #EFEFEF;
+  padding: 2em 0 0 0; }
+  /* line 5, app/scss/componentes/footer.scss */
+  .footer__menu {
+    text-align: left; }
+    @media (max-width: 480px) {
+      /* line 5, app/scss/componentes/footer.scss */
+      .footer__menu {
+        display: none; } }
+  /* line 13, app/scss/componentes/footer.scss */
+  .footer__menu-titulo {
+    color: #12253F;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 19px;
+    line-height: 1.1875rem; }
+    /* line 17, app/scss/componentes/footer.scss */
+    .footer__menu-titulo:before {
+      background-color: #66BF92;
+      content: '';
+      display: inline-block;
+      height: 2px;
+      margin: 0 8px 5px 0;
+      width: 20px; }
+  /* line 27, app/scss/componentes/footer.scss */
+  .footer__link {
+    color: #99A7B6;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out; }
+    /* line 33, app/scss/componentes/footer.scss */
+    .footer__link:hover {
+      color: #708191; }
+  /* line 38, app/scss/componentes/footer.scss */
+  .footer__logotipo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 230px; }
+    /* line 43, app/scss/componentes/footer.scss */
+    .footer__logotipo:last-child {
+      margin-left: 4em; }
+    @media (max-width: 768px) {
+      /* line 38, app/scss/componentes/footer.scss */
+      .footer__logotipo {
+        margin-top: 4em;
+        width: 120px; } }
+    @media (max-width: 480px) {
+      /* line 38, app/scss/componentes/footer.scss */
+      .footer__logotipo {
+        margin: 0 auto;
+        text-align: center;
+        width: 30%;
+        position: relative;
+        left: -5%; } }
+  /* line 61, app/scss/componentes/footer.scss */
+  .footer__copy {
+    background-color: #E5E5E5;
+    margin-top: 2em;
+    overflow: hidden;
+    padding: 1em 0; }
+  /* line 68, app/scss/componentes/footer.scss */
+  .footer__legal {
+    color: #12253F;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 17px;
+    line-height: 1.0625rem; }
+    @media (max-width: 480px) {
+      /* line 68, app/scss/componentes/footer.scss */
+      .footer__legal {
+        font-size: 12px;
+        font-size: 0.75rem;
+        text-align: center; } }
+  /* line 79, app/scss/componentes/footer.scss */
+  .footer__social {
+    text-align: right; }
+    @media (max-width: 480px) {
+      /* line 79, app/scss/componentes/footer.scss */
+      .footer__social {
+        margin-top: 1.5em;
+        text-align: center; } }
+  /* line 88, app/scss/componentes/footer.scss */
+  .footer__social-icon {
+    color: #12253F;
+    font-size: 20px;
+    font-size: 1.25rem;
+    margin-left: 1em;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out; }
+    /* line 93, app/scss/componentes/footer.scss */
+    .footer__social-icon:hover {
+      color: #66BF92; }
+
+/* CLASES DE AYUDA - SIEMPRE AL FINAL */
+/* elimina el espacio entre los contenidos */
+/* line 2, app/scss/componentes/helper.scss */
+.u-resetRow {
+  margin-bottom: 0; }
+
+/* line 6, app/scss/componentes/helper.scss */
+.u-right {
+  text-align: right; }
+
+/* line 10, app/scss/componentes/helper.scss */
+.u-clear {
+  clear: both; }
+
+/* permite que las columnas utilicen el 100% */
+/* line 16, app/scss/componentes/helper.scss */
+.u-gutter {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  position: relative; }
+
+/* line 23, app/scss/componentes/helper.scss */
+.u-gutter-left {
+  padding-left: 0 !important;
+  position: relative; }
+
+/* line 28, app/scss/componentes/helper.scss */
+.u-gutter-right {
+  padding-right: 0 !important;
+  position: relative; }
+
+/* line 33, app/scss/componentes/helper.scss */
+.u-clear {
+  clear: both;
+  width: 100%; }
+
+/* Oculta los iconos de comparar y hamburguesa en desktop */
+/* line 42, app/scss/componentes/helper.scss */
+.u-mobile {
+  display: none; }
+  @media (max-width: 480px) {
+    /* line 42, app/scss/componentes/helper.scss */
+    .u-mobile {
+      display: block; } }
+
+/* line 49, app/scss/componentes/helper.scss */
+.u-destop {
+  display: inherit; }
+  @media (max-width: 480px) {
+    /* line 49, app/scss/componentes/helper.scss */
+    .u-destop {
+      display: none; } }
+
+/* Muestra y/o oculta el menu lateral */
+/* line 58, app/scss/componentes/helper.scss */
+.u-show {
+  left: 0 !important; }
+
+/* Contenedor general */
+/* line 66, app/scss/componentes/helper.scss */
+.u-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 98%;
+  position: relative; }
