@@ -1,0 +1,51 @@
+.social{
+   background-color: #EFEFEF;
+   padding: 2em 0;
+   text-align: center;
+
+   &__text{
+      color: $text-color-medium;
+      display: inline-block;
+      @include font-size(18);
+      @include line-height(22);
+      margin: 0 10em;
+      vertical-align: middle;
+
+      @media(max-width: 768px){
+         @include font-size(14);
+         @include line-height(17);
+         margin: 0 4em;
+      }
+
+      @media(max-width: 480px){
+         display: none;
+      }
+   }
+
+   &__accesos{
+      display: inline-block;
+      margin-right: 3em;
+      text-align: right;
+      vertical-align: middle;
+
+      @media(max-width: 480px){
+         display: block;
+         margin: 1em auto 0 auto;
+         text-align: center;
+      }
+   }
+
+   &__icon{
+      color: $primary-color;
+      @include font-size(20);
+      margin-left: 1em;
+      transition: all .3s ease-out;
+
+      &:first-child{
+         margin-left: 0;
+      }
+      &:hover{
+         color: $secondary-color;
+      }
+   }
+}

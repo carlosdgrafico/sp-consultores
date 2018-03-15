@@ -1,0 +1,45 @@
+.quienes-pueden{
+   padding: 7em 0;
+
+   @media(max-width: 480px){
+      padding: 3em 0;
+   }
+}
+
+.destacados{
+   text-align: center;
+
+   &__item{
+      display: inline-block;
+      margin: 0 5%;
+      text-align: center;
+      vertical-align: top;
+      width: 20%;
+
+      @media(max-width: 480px){
+         margin: 0 auto 3em auto;
+         width: 80%;
+      }
+   }
+
+   &__icon{
+      color: $secondary-color;
+      display: inline-block;
+      @include font-size(48);
+      height: 70px;
+      text-align: center;
+      width: 80px;
+   }
+
+   &__text{
+      color: $primary-color;
+      @include font-size(20);
+      @include line-height(24);
+      font-weight: 400;
+
+      @media(max-width: 480px){
+         @include font-size(16);
+         @include line-height(19);
+      }
+   }
+}

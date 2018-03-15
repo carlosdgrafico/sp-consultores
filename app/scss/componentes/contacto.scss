@@ -1,0 +1,35 @@
+.contacto{
+   padding: 7em 0;
+
+   @media(max-width: 468px){
+      padding: 3em 0;
+   }
+}
+
+.formulario{
+   margin-top: 3em;
+
+   .input-field{
+      margin-bottom: 2em;
+   }
+
+   &__boton{
+      margin: 2em 2em 0 0;
+      padding: .9em 3.5em;
+
+      @media(max-width: 768px){
+         margin: 0;
+      }
+
+      @media(max-width: 768px){
+         margin: .5em 0 1em 0;
+         width: 80%;
+      }
+   }
+}
+
+.mapa{
+   margin-top: 3em;
+   max-height: 400px;
+   overflow: hidden;
+}

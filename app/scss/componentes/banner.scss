@@ -1,0 +1,136 @@
+.banner{
+   position: relative;
+
+   .u-container{
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+   }
+
+   &__desktop{
+      @media(max-width: 480px){
+         display: none;
+      }
+   }
+
+   &__mobile{
+      display: none;
+      @media(max-width: 480px){
+         display: inherit;
+      }
+   }
+
+   &__scroll{
+      color: $text-color-medium;
+      @include font-size(14);
+      @include line-height(17);
+      font-weight: 300;
+      opacity: .5;
+      position: absolute;
+      top: 250px;
+      left: 0;
+      text-align: center;
+
+     -vendor-animation-iteration-count: infinite;
+
+      @media(max-width: 768px){
+         left: 30px;
+      }
+
+      @media(max-width: 480px){
+         display: none !important;
+      }
+
+      &:before, &:after{
+         background-color: $text-color-medium;
+         content: '';
+         display: inline-block;
+         height: 50px;
+         margin: 0 auto;
+         position: absolute;
+         top: -60px;
+         left: 0;
+         right: 0;
+         width: 1px;
+      }
+      &:after{
+         top: 30px;
+      }
+   }
+
+   &__scroll-flecha{
+      color: $text-color-medium;
+      @include font-size(5);
+      position: absolute;
+      bottom: -65px;
+      left: 0;
+      right: 0;
+   }
+
+
+   &__info{
+      color: #fff;
+      max-width: 600px;
+      position: absolute;
+      top: 250px;
+      right: 0;
+      text-align: right;
+
+      @media(max-width: 768px){
+         top: 150px;
+         width: 450px;
+      }
+
+      @media(max-width: 480px){
+         width: 220px;
+         right: 10px;
+      }
+   }
+
+   &__saludo{
+      color: rgba(255,255,255,.5);
+      @include font-size(18);
+      @include line-height(22);
+      font-weight: 300;
+      margin: 0 0 .3em 0;
+
+      @media(max-width: 768px){
+         @include font-size(14);
+         margin-bottom: 0;
+      }
+   }
+
+   &__saludo-destacado{
+      color: $secondary-color;
+      font-weight: 400;
+      margin-left: .3em;
+   }
+
+   .banner__slider{
+      margin: 0;
+   }
+
+
+   &__slider-frase{
+      @include font-size(48);
+      @include line-height(47);
+      font-weight: 300;
+      margin: 0;
+
+      @media(max-width: 768px){
+         @include font-size(30);
+         @include line-height(36);
+      }
+
+      @media(max-width: 480px){
+         @include font-size(22);
+         @include line-height(24);
+      }
+   }
+
+   &__boton{
+      margin-top: 4em;
+   }
+}

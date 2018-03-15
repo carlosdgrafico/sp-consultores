@@ -1,0 +1,25 @@
+{
+  "name": "aCambio",
+  "version": "1.0.0",
+  "description": "landing - sitio informativo",
+  "main": "index.js",
+  "repository": "git@github.com:carlosdgrafico/aCambio.git",
+  "author": "carlosdgrafico <carlos.disenadorgrafico@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "fancybox": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0",
+    "gulp-webserver": "^0.9.1",
+    "materialize": "^1.0.0",
+    "materialize-css": "^0.100.2",
+    "owl.carousel": "^2.2.0"
+  }
+}

@@ -1,0 +1,36 @@
+.quienes-somos{
+   padding: 7em 0;
+   position: relative;
+
+   @media(max-width: 480px){
+      padding-bottom: 1em;
+      .titulo:first-child{
+         margin-top: 200px;
+      }
+   }
+}
+
+.equipo{
+   border-radius: 50%;
+   border: 10px solid #fff;
+   height: 780px;
+   overflow: hidden;
+   position: absolute;
+   right: -200px;
+   top: -70px;
+   width: 780px;
+   z-index: 2;
+
+   @media(max-width: 768px){
+      height: 500px;
+      right: -130px;
+      width: 500px;
+   }
+
+   @media(max-width: 480px){
+      border: 6px solid #fff;
+      height: 350px;
+      right: -100px;
+      width: 350px;
+   }
+}
