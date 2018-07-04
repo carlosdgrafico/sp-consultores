@@ -9,7 +9,7 @@
    .titulo__name{
       color: #2f3133;
       &:before{
-         background-color: #874142;
+         background-color: $secondary-color;
       }
    }
 }
@@ -22,7 +22,7 @@
    }
 
    &__icon{
-      color: #874142;
+      color: $secondary-color;
       display: inline-block;
       @include font-size(47);
 
@@ -44,7 +44,7 @@
       @include line-height(22);
       margin: .5em 0 1.5em 0;
       &:before{
-         background-color: #874142;
+         background-color: $secondary-color;
          content: '';
          display: inline-block;
          height: 2px;

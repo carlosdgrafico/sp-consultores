@@ -163,11 +163,11 @@ img {
     /* line 1, app/scss/componentes/generales.scss */
     .logotipo {
       top: 5px;
-      width: 120px; } }
+      width: 150px; } }
 
 /* line 15, app/scss/componentes/generales.scss */
 .boton {
-  background-color: #874142;
+  background-color: #CC6647;
   border-radius: 25px;
   color: #fff;
   font-size: 16px;
@@ -232,7 +232,7 @@ button.boton {
       width: 40px; }
   /* line 77, app/scss/componentes/generales.scss */
   .titulo__icon {
-    color: #66BF92;
+    color: #CC6647;
     font-size: 28px;
     font-size: 1.75rem;
     margin-left: 1em; }
@@ -365,7 +365,7 @@ button.boton {
     transition: all .3s ease-out; }
     /* line 38, app/scss/componentes/header.scss */
     .header__link:before {
-      background-color: #874142;
+      background-color: #CC6647;
       content: '';
       display: inline-block;
       height: 2px;
@@ -635,7 +635,7 @@ button.boton {
         margin-bottom: 0; } }
   /* line 105, app/scss/componentes/banner.scss */
   .banner__saludo-destacado {
-    color: #66BF92;
+    color: #CC6647;
     font-weight: 400;
     margin-left: .3em; }
   /* line 111, app/scss/componentes/banner.scss */
@@ -651,7 +651,7 @@ button.boton {
     margin: 0; }
     /* line 121, app/scss/componentes/banner.scss */
     .banner__slider-frase span {
-      color: #2f3133; }
+      color: #CC6647; }
     @media (max-width: 768px) {
       /* line 116, app/scss/componentes/banner.scss */
       .banner__slider-frase {
@@ -739,7 +739,7 @@ button.boton {
     color: #2f3133; }
     /* line 11, app/scss/componentes/como-funciona.scss */
     .como-funciona .titulo__name:before {
-      background-color: #874142; }
+      background-color: #CC6647; }
 
 /* line 17, app/scss/componentes/como-funciona.scss */
 .paso {
@@ -750,7 +750,7 @@ button.boton {
       margin: 2em 0; } }
   /* line 24, app/scss/componentes/como-funciona.scss */
   .paso__icon {
-    color: #874142;
+    color: #CC6647;
     display: inline-block;
     font-size: 47px;
     font-size: 2.9375rem; }
@@ -775,7 +775,7 @@ button.boton {
     margin: .5em 0 1.5em 0; }
     /* line 46, app/scss/componentes/como-funciona.scss */
     .paso__titulo:before, .beneficio__titulo:before {
-      background-color: #874142;
+      background-color: #CC6647;
       content: '';
       display: inline-block;
       height: 2px;
@@ -959,7 +959,7 @@ button.boton {
       margin-left: 0; }
     /* line 47, app/scss/componentes/social.scss */
     .social__icon:hover {
-      color: #66BF92; }
+      color: #CC6647; }
 
 /* line 1, app/scss/componentes/quienes-pueden.scss */
 .quienes-pueden {
@@ -986,7 +986,7 @@ button.boton {
         width: 80%; } }
   /* line 25, app/scss/componentes/quienes-pueden.scss */
   .destacados__icon {
-    color: #66BF92;
+    color: #CC6647;
     display: inline-block;
     font-size: 48px;
     font-size: 3rem;
@@ -1063,7 +1063,7 @@ button.boton {
     line-height: 1.1875rem; }
     /* line 17, app/scss/componentes/footer.scss */
     .footer__menu-titulo:before {
-      background-color: #66BF92;
+      background-color: #CC6647;
       content: '';
       display: inline-block;
       height: 2px;
@@ -1084,9 +1084,10 @@ button.boton {
   /* line 38, app/scss/componentes/footer.scss */
   .footer__logotipo {
     display: inline-block;
+    margin-top: 2em;
     vertical-align: middle;
     width: 230px; }
-    /* line 43, app/scss/componentes/footer.scss */
+    /* line 44, app/scss/componentes/footer.scss */
     .footer__logotipo:last-child {
       margin-left: 4em; }
     @media (max-width: 768px) {
@@ -1102,13 +1103,13 @@ button.boton {
         width: 30%;
         position: relative;
         left: -5%; } }
-  /* line 61, app/scss/componentes/footer.scss */
+  /* line 62, app/scss/componentes/footer.scss */
   .footer__copy {
     background-color: #E5E5E5;
     margin-top: 2em;
     overflow: hidden;
     padding: 1em 0; }
-  /* line 68, app/scss/componentes/footer.scss */
+  /* line 69, app/scss/componentes/footer.scss */
   .footer__legal {
     color: #12253F;
     font-size: 14px;
@@ -1116,20 +1117,20 @@ button.boton {
     line-height: 17px;
     line-height: 1.0625rem; }
     @media (max-width: 480px) {
-      /* line 68, app/scss/componentes/footer.scss */
+      /* line 69, app/scss/componentes/footer.scss */
       .footer__legal {
         font-size: 12px;
         font-size: 0.75rem;
         text-align: center; } }
-  /* line 79, app/scss/componentes/footer.scss */
+  /* line 80, app/scss/componentes/footer.scss */
   .footer__social {
     text-align: right; }
     @media (max-width: 480px) {
-      /* line 79, app/scss/componentes/footer.scss */
+      /* line 80, app/scss/componentes/footer.scss */
       .footer__social {
         margin-top: 1.5em;
         text-align: center; } }
-  /* line 88, app/scss/componentes/footer.scss */
+  /* line 89, app/scss/componentes/footer.scss */
   .footer__social-icon {
     color: #12253F;
     font-size: 20px;
@@ -1137,9 +1138,9 @@ button.boton {
     margin-left: 1em;
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out; }
-    /* line 93, app/scss/componentes/footer.scss */
+    /* line 94, app/scss/componentes/footer.scss */
     .footer__social-icon:hover {
-      color: #66BF92; }
+      color: #CC6647; }
 
 /* CLASES DE AYUDA - SIEMPRE AL FINAL */
 /* elimina el espacio entre los contenidos */

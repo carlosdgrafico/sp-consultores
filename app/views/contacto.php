@@ -1,6 +1,6 @@
 <?php
 ///////Configuración/////
-$mail_destinatario = 'cristobal.briceno@uchile.cl';
+$mail_destinatario = 'contacto@sergiopuchi.cl';
 ///////Fin configuración//
 
 ///// Funciones necesarias////
@@ -47,8 +47,8 @@ if (isset ($_POST['submit'])) {
 if (form_mail($mail_destinatario, $_POST['asunto'],
 "Los datos introducidos en el formulario son:\n\n", $_POST['email']))
 echo "<script language='javascript'>
-alert('Mensaje enviado, muchas gracias.');
-window.location.href = 'contacto.html';
+alert('Mensaje enviado, muchas gracias. SP Consultores se comunicara con ustedes lo más pronto posible');
+window.location.href = 'http://www.sergiopuchi.cl/';
 </script>"
 
 ;

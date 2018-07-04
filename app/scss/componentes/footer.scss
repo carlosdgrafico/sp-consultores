@@ -37,6 +37,7 @@
 
    &__logotipo{
       display: inline-block;
+      margin-top: 2em;
       vertical-align: middle;
       width: 230px;
 
@@ -94,4 +95,5 @@
          color: $secondary-color;
       }
    }
+
 }

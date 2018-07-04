@@ -37,7 +37,7 @@
 
       &:before{
          // borrar background-color: $secondary-color;
-         background-color: #874142;
+         background-color: $secondary-color;
          content: '';
          display: inline-block;
          height: 2px;
