@@ -7,6 +7,10 @@
       top: 0;
       left: 0;
       right: 0;
+
+      @media(max-width: 480px){
+         left: 1em;
+      }
    }
 
    &__desktop{
@@ -71,7 +75,7 @@
 
 
    &__info{
-      color: #874142;
+      color: #004D87;
       max-width: 600px;
       position: absolute;
       top: 250px;

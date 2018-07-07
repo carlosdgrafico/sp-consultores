@@ -195,7 +195,7 @@
 
    &__stripe{
       backface-visibility: hidden;
-      background: #874142;
+      background: $secondary-color;
       height: 2px;
       margin: 8px auto;
       transition: all 0.3s;
@@ -212,7 +212,7 @@
 
 
 .on .burger__stripe--top {
-   background-color: #874142;
+   background-color: $secondary-color;
    transform: rotate(45deg) translate(7px, 7px);
 }
 
@@ -221,6 +221,6 @@
 }
 
 .on .burger__stripe--bottom {
-   background-color: #874142;
+   background-color: $secondary-color;
    transform: rotate(-45deg) translate(7px, -7px);
 }

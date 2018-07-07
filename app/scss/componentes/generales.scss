@@ -7,7 +7,7 @@
 
    @media(max-width: 480px){
       top: 5px;
-      width: 150px;
+      width: 170px;
    }
 }
 
@@ -65,7 +65,7 @@ button.boton{
       }
 
       &:before{
-         background-color: #874142;
+         background-color: $secondary-color;
          content: '';
          display: inline-block;
          height: 2px;
@@ -155,8 +155,8 @@ button.boton{
 			width: 9px;
 
 			&.active {
-				background-color: #874142;
-				border: 1px solid #874142;
+				background-color: #004D87;
+				border: 1px solid #004D87;
 			}
 		}
 	}
